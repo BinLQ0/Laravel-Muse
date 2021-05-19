@@ -1,0 +1,32 @@
+{
+    "name": "binlq0/muse",
+    "description": "GUI Manage User Administration",
+    "type": "library",
+    "require": {
+        "binlq0/laravel-adminlte": "dev-master",
+        "laravel/framework": ">=6.0",
+        "spatie/laravel-permission": ">=4.0.0"
+    },
+    "authors": [{
+        "name": "Guna Wirawan",
+        "email": "gunawirawan.code@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Binlq0\\Muse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binlq0\\Muse\\MuseServiceProvider"
+            ]
+        }
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "../*"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
